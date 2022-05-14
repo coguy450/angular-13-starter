@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-algo';
+  clickLink (link: string) {
+    console.log(link, 'Clicked')
+  }
 }

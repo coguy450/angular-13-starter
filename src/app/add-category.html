@@ -1,0 +1,15 @@
+<div class="content">
+  <h2>Add a new category</h2>
+  <div>
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Category</mat-label>
+        <input matInput placeholder="Ex. Coding"
+         [ngModelOptions]="{standalone: true}"
+         [(ngModel)]="newCategory">
+      </mat-form-field>
+      <button mat-flat-button color="primary" (click)="clickCreateCategory()" >Create</button>
+  </form>
+  </div>
+ 
+</div>
